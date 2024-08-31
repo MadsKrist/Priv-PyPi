@@ -26,6 +26,8 @@ on:
 
 jobs:
   update:
+    permissions:
+      content: write
     runs-on: ubuntu-latest
     strategy:
       matrix:
