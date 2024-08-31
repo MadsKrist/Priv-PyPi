@@ -11,6 +11,8 @@ on:
 jobs:
   delete:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     strategy:
       matrix:
         python-version: [3.8]
